@@ -4,7 +4,7 @@ import { colors } from "../../styles/GlobalStyle"
 export const Section = styled.section`
   background-color: ${colors.tertiary};
   padding: 1rem;
-  width: 18rem;
+  width: 25rem;
   border-radius: 0.5rem;
   aside {
     display: flex;
@@ -12,13 +12,16 @@ export const Section = styled.section`
   }
   p, h4, img {
     padding-bottom: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-left: 0.5rem;
     text-align: center;
   }
+  img{
+    width: 50rem;
+  }
   text{
     padding-bottom: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-left: 0.5rem;
     text-align: justify;
   }

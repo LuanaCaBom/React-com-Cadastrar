@@ -71,8 +71,11 @@ export function Cadastrar() {
           />
         </div>
         <p>
-          Já possui conta? <Link to="/login">Faça o login</Link>
           <button type="submit">Salvar</button>
+        </p>
+        <p className="login">
+          Já possui conta? 
+          <Link className="fazer_login" to="/login">Faça o login</Link>
         </p>
       </form>
     </SSection>

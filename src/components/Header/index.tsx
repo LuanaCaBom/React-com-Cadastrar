@@ -18,7 +18,7 @@ export function Header() {
       <NavBar>
         <div>
           <Link to="/">Início</Link>
-          <Link to="/comentario">Aluguéis</Link>
+          <Link to="/alugueis">Aluguéis</Link>
           {
           user ? (
             <>

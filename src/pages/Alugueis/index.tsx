@@ -2,8 +2,10 @@ import * as S from './styles'
 import { dados } from "../../services/dados"
 import { ComponentCard } from '../../components'
 
-export function Comentario() {
+export function Alugueis() {
   return (
+    <>
+    <S.Paragrafo>Aluguéis Disponíveis</S.Paragrafo>
     <S.Section>
       {dados.map(item => (
         <ComponentCard
@@ -17,5 +19,6 @@ export function Comentario() {
         />
       ))}
     </S.Section>
+    </>
   )
 }

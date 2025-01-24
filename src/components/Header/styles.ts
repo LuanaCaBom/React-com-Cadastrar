@@ -25,6 +25,14 @@ export const SHeader = styled.header`
       font-size: 3rem;
     }
   }
+  button {
+    margin-right: 1rem;
+    border-radius: 9%;
+    width: 4rem;
+    height: 1.8rem;
+    background-color: ${colors.secondary};
+    color: ${colors.primary};
+  }
 `
 
 export const NavBar = styled.nav`

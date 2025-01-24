@@ -67,8 +67,11 @@ export function Login() {
           />
         </div>
         <p>
-          Não possui conta? <Link to="/cadastrar">Cadastre-se</Link>
           <button type="submit">Entrar</button>
+        </p>
+        <p className="cadastro">
+          Não possui conta?
+          <Link className="entrar" to="/cadastrar">Cadastre-se</Link>
         </p>
       </form>
     </SSection>

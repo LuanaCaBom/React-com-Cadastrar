@@ -27,7 +27,7 @@ export const SSection = styled.section`
         height: 3rem;
         width: 3rem;
         padding: 0.3rem;
-        color: ${colors.primary};
+        color: ${colors.secondary};
       }
       input {
         width: 100%;
@@ -43,6 +43,23 @@ export const SSection = styled.section`
         color: ${colors.black};
         font-weight: bold;
       }
+      button {
+        background-color: ${colors.secondary};
+        border-radius: 12%;
+        width: 3rem;
+        height: 1.5rem;
+        color: ${colors.primary};
+      }
+      button:hover {
+        font-weight: lighter;
+      }
+    }
+    .login{
+      display: flex;
+      justify-content: space-between;
+    }
+    .fazer_login:hover{
+      font-weight: normal;
     }
   }
 `
